@@ -1,0 +1,893 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+header{
+    background-color: #EAC926;
+}
+div.top-header{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+    margin-bottom: 1%;
+    }
+    header div.logo{
+    margin-top: 1%;
+    width: 36.1%;
+    padding: 0px;
+    }
+    .imglogo{
+        width: 100%;
+        }
+    div.form{
+        font-size: 20.5px;
+        display: flex;
+        margin-bottom: 5%;
+        margin-left: 1.1%;
+        margin-top: 5.1%;
+        width: 20.8%;
+        }   
+        div.input{
+        background-color: #FFF;
+        border: 1px solid #000;
+        outline: none;
+        color: #666;
+        padding: 0px;
+        width: 100%;
+        }
+        div.submit{
+        background-color: #FFF;
+        border: 1px solid #000;
+        color: #666;
+        width: 9%;
+        margin-left: 2%;
+        }
+        .fa.fa-search{
+        width: 4%;
+        text-align: center;
+        }
+
+    div.top-header p{
+        width: 34%;
+        text-align: center;
+        margin-top: 84px;
+        font-size: 18.5px;
+        margin-left: 3.5%;
+        }
+
+.navegador{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    width: 96.5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    }   
+    ul.izquierda{
+    margin-left: 2%;
+    width: 28.7%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%
+    }
+        li{
+            margin-right: 4.75%;
+            list-style-type: none;
+        }
+            a{
+            font-size: 16.5px;
+            text-decoration: none;
+            color: #000;
+            }
+    ul.derecha{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    }
+    div.burger-menu{
+        text-align: center;
+    }
+    .imgbanner {
+        width: 100%;
+    }
+    
+    div.burger-menu i{
+        background-color: #03264C;
+        border-radius: 5px;
+        color: #FFF;
+        font-size: 20px;
+        height: 40px;
+        margin: 10px 0px 20px 0px;
+        padding: 10px;
+        width: 40px;
+    }
+/*-------------Aqui iria el MEDIA-----------------*/
+
+
+
+/*-------------Aqui terminaria el MEDIA-----------------*/
+footer {
+    background-color: #FFF;
+    color:rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-left: 1px;
+    padding: 20px;
+    width: 88,5%;
+    text-align: center;
+}
+
+footer p{
+    margin-left: 35px;
+    margin-right: 35px;
+    color:#666
+}
+
+footer i{
+    font-size:2em;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    color: #1259c3;
+}
+
+footer h5{
+    font-size: 16.5px;
+    color:#666;
+}
+
+footer h6{
+    margin-left: 0px;
+    text-align: left;
+    margin-top: 40px;
+    color:#666;
+    font-weight: normal;
+}
+@media (min-width:0px){
+    h4{
+        display: none;
+    }
+    .navegador{
+        display: none;
+    }
+    div.top-header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 7%;
+    }
+    div.burger-menu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    header div.logo {
+        margin-top: 7%;
+        width: 50%;
+        margin-bottom: 5%;
+        padding: 0px;
+    }
+    .imgbanner {
+        width: 100%;
+    }
+    .imglogo {
+        width: 97%;
+    }
+    div.top-header p {
+        width: 93%;
+        text-align: center;
+        margin-top: 0px;
+        font-size: 13.5px;
+        margin-left: 0%;
+    }
+    div.form {
+        display: flex;
+        margin-bottom: 5%;
+        margin-left: 0%;
+        margin-top: 5.1%;
+        width: 50%;
+        white-space: nowrap;
+        justify-content: center;
+    }
+    div.input {
+        font-size: 12.65px;
+        background-color: #FFF;
+        outline: none;
+        color: #666;
+        padding: 8px;
+        width: 78%;
+        height: 40px;
+        display: flex;
+        border: aliceblue;
+        align-items: center;
+        border-radius: 4px;
+    }
+    div.submit {
+        background-color: #FFF;
+        color: #666;
+        width: 20%;
+        margin-left: -3%;
+        border: none;
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+    }
+    .fa-search:before {
+        display: flex;
+        content: "\f002";
+        margin-left: 12px;
+        justify-content: space-around;
+        font-size: 13px;
+        align-items: center;
+    }
+    .fa.fa-search {
+        width: 100%;
+    }
+    .pformu{
+        color:rgb(248, 52, 52);
+        text-align: center;
+    }
+    .b{
+        margin-bottom: 2px;
+    }
+    .formulario{
+        display: flex;
+        width: 94%;
+        height: 30%;
+        background-color: #1259E2;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 4%;
+        border-radius: 33px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lineanombre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .nombreinput{
+        text-align: center;
+    }
+    .lineapellido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .apellidoinput{
+        text-align: center;
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .emailinput{
+        width: 60%;
+        text-align: center;
+    }
+    .nacimiento{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .nacimientoinput{
+        width: 100%;
+        text-align: center;
+        margin-top: 6px;
+    }
+    .domicilio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .domicilioinput{
+        width: 60%;
+        text-align: center;
+    }
+    
+    .perfildeusuario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .intereses{
+        margin-top: 6%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foto{
+        margin-top: 10%;
+    }
+    .contr{
+        text-align: center;
+    }
+    .eligec{
+        width: 53%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .confirmac{
+        width: 53%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .confirmcancel{
+        width: 72%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 26px;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 24px;
+    }
+    .cc{
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    }
+    
+    
+    @media (min-width: 361px){
+        h4{
+            display: flex;
+        }
+    
+        div.burger-menu {
+            display: none;
+        }
+        
+        
+        div.top-header{
+            width: 93%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 5%;
+        }
+    
+        header div.logo {
+            margin-top: 3%;
+            width: 34%;
+            margin-bottom: 0%;
+            padding: 0px;
+        }
+    
+        .imglogo {
+            margin-left: 3px;
+            width: 96%;
+        }
+    
+        div.form {
+            display: flex;
+            margin-bottom: -2%;
+            margin-left: 1%;
+            margin-top: 1.8%;
+            width: 31%;
+            white-space: nowrap;
+            justify-content: flex-start;
+        }
+    
+        div.input {
+            font-size: 12.65px;
+            background-color: #FFF;
+            outline: none;
+            color: #666;
+            padding: 1px;
+            width: 79%;
+            height: 19px;
+            display: flex;
+            border: aliceblue;
+            align-items: center;
+            border-radius: 4px;
+        }
+        div.submit {
+            background-color: #FFF;
+            color: #666;
+            width: 7%;
+            margin-left: 3%;
+            border: none;
+            display: flex;
+            align-items: center;
+            border-radius: 4px;
+        }
+        .fa-search:before {
+            display: flex;
+            content: "\f002";
+            margin-left: 0px;
+            justify-content: space-around;
+            font-size: 13px;
+            align-items: center;
+        }
+        .fa.fa-search {
+            width: 100%;
+        }
+    
+        div.top-header p {
+            width: 34%;
+            text-align: left;
+            margin-top: 38.5px;
+            font-size: 11.8px;
+            margin-left: 0%;
+        }
+    
+        .navegador{
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            width: 96.5%;
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            flex-direction: row;
+            }   
+            ul.izquierda{
+            margin-left: 2.3%;
+            width: 34.8%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1.5%;
+            }
+                li {
+                margin-right: 0%;
+                list-style-type: none;
+                }
+                    a {
+                    font-size: 12px;
+                    text-decoration: none;
+                    color: #000;
+                    }
+            ul.derecha{
+            width: 36.5%;
+            margin-right: 1.7%;
+            display: flex;
+            justify-content: space-between;
+            }
+    
+            main section article .description{
+            display: block;
+        }
+    
+        main section article{
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+    
+        main section div.products{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        
+        main section div.products article{
+            width: 45%;
+        }
+    
+        .price,
+        .discount{
+            width: 50%;
+        }
+        .pformu{
+            color:rgb(248, 245, 52);
+            text-align: center;
+        }
+        .b{
+            margin-bottom: 2px;
+        }
+        .formulario {
+            display: flex;
+            width: 90%;
+            height: 30%;
+            background-color: #1259E2;
+            margin: auto;
+            margin-top: 5%;
+            margin-bottom: 4%;
+            border-radius: 33px;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .lineanombre {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .nombreinput{
+            text-align: center;
+        }
+        .lineapellido {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .apellidoinput{
+            text-align: center;
+        }
+        .email {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .emailinput {
+            width: 100%;
+            text-align: center;
+        }
+        .nacimiento {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 15px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .nacimientoinput {
+            width: 100%;
+            text-align: center;
+            margin-top: 6px;
+        }
+        .domicilio {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        .domicilioinput {
+            width: 88%;
+            text-align: center;
+        }
+        
+        .perfildeusuario {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+            justify-content: center;
+        }
+        
+        .intereses {
+            margin-top: 4%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .foto {
+            margin-top: 10%;
+        }
+        .contr{
+            text-align: center;
+        }
+        .eligec {
+            width: 53%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        .confirmac {
+            width: 53%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        .confirmcancel {
+            width: 72%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 26px;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 24px;
+        }
+        .cc{
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    }
+    
+    @media (min-width: 769px){
+        div.top-header{
+            width: 94.8%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0%;
+            margin-bottom: 1%;
+            justify-content: flex-start;
+            flex-direction: row;
+            }
+            header div.logo{
+                margin-top: 1%;
+                width: 36.1%;
+                margin-right: 0px;
+            }
+            .imglogo{
+                width: 97.5%;
+                margin-left: 10px;
+                }
+            div.form{
+                display: flex;
+                margin-bottom: 5%;
+                margin-left: 1%;
+                margin-top: 5.1%;
+                width: 25%;
+                justify-content: flex-start;
+                }   
+                div.input {
+                    font-size: 20.5px;
+                    height: 29px;
+                    background-color: #FFF;
+                    border: 1px solid #000;
+                    outline: none;
+                    color: #666;
+                    padding: 0px;
+                    width: 79%;
+                }
+                div.submit {
+                    background-color: #FFF;
+                    border: 1px solid #000;
+                    color: #666;
+                    width: 8%;
+                    margin-left: 3%;
+                }
+                .fa.fa-search{
+                width: 7%;
+                margin-left: 4px;
+                }
+                .fa-search:before {
+                    display: flex;
+                    content: "\f002";
+                    margin-left: 0px;
+                    font-size: 17px;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                }
+                div.top-header p {
+                    width: 29%;
+                    text-align: left;
+                    margin-top: 14.5px;
+                    font-size: 18.4px;
+                    margin-left: 4.7%;
+                }
+        .navegador{
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            width: 96.5%;
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            flex-direction: row;
+            }   
+            ul.izquierda{
+            margin-left: 2%;
+            width: 27.5%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1%;
+            }
+                li{
+                    margin-right: 0%;
+                    list-style-type: none;
+                }
+                    a{
+                    font-size: 16.5px;
+                    text-decoration: none;
+                    color: #000;
+                    }
+            ul.derecha{
+            width: 28.2%;
+            display: flex;
+            justify-content: space-between;
+            }   
+        main section div.products article{
+            width: 22%;
+        }
+        div.burger-menu{
+            display: none;
+        }
+        .formulario {
+            display: flex;
+            width: auto;
+            height: auto;
+            background-color: #1259E2;
+            margin: auto;
+            margin-top: 0%;
+            margin-bottom: 0;
+            border-radius: 0px;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: flex-start;
+            flex-direction: row;
+        }
+        .nombreinput {
+            text-align: center;
+        }
+        .lineanombre {
+            width: 30%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 23px;
+        }
+        .lineapellido {
+            width: 30%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 2%;
+        }
+        .emailinput {
+            width: 53%;
+            text-align: center;
+        }
+        .email {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin-left: 2%;
+        }
+        .nacimientoinput {
+            width: 100%;
+            text-align: center;
+            margin-top: 6px;
+            margin-left: 2%;
+        }
+        .nacimiento {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+            flex-wrap: nowrap;
+            width: 30%;
+        }
+        .domicilioinput {
+            width: 100%;
+            text-align: center;
+        }
+        .domicilio {
+            width: 29%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 40px;
+            margin-left: 5%;
+            flex-wrap: nowrap;
+        }
+        .b {
+            margin-bottom: 2px;
+        }
+        .perfildeusuario {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+            width: 25%;
+        }
+        .intereses {
+            width: 40%;
+            margin-top: 4%;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .foto {
+            margin-top: 2%;
+        }
+        .fotousuario {
+            display: flex;
+            width: 50%;
+            flex-direction: column;
+            align-content: stretch;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .eligec {
+            width: 28%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 53px;
+            align-content: space-between;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .confirmac {
+            width: 24%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 50px;
+            align-items: center;
+        }
+        .confirmcancel {
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 26px;
+            align-items: center;
+            margin-bottom: 24px;
+            justify-content: space-evenly;
+        }
+        
+    h4.description{
+        display: none;
+    }
+
+    
+    main article:hover i{
+        transform: rotate(-90deg);
+        transition-duration: 1s;
+    }
+
+    .footc{
+    display:flex;
+    }
+
+    .fa-credit-card:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+
+    .fa-gift:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+
+    .fa-user-shield:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+   
+    article{
+        box-shadow:none
+    }
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        cursor: pointer;
+    }
+
+    h4.description{
+        display: none;
+    }
+    .logini:hover{
+        color: #0022AA;
+        cursor: pointer;
+    }
+}
+
